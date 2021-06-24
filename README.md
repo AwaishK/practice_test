@@ -5,8 +5,8 @@
 Run the following commands to clone the project and then create virtual enviroment
 
 ```bash
-python3.9 -m venv env
-source env/bin/activate
-pip install -r 
+git clone git@github.com:AwaishK/practice_test.git
+cd practice_test
+make dev-env
 ```
 
