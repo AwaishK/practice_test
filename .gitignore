@@ -1,0 +1,14 @@
+# Python virtual enviroment
+env/*
+.env
+
+# Compiled python modules.
+*.pyc
+
+# VS Code
+.vscode/
+*/ws.code-workspace
+
+# Other files
+__pycache__
+
