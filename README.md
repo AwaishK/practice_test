@@ -51,9 +51,9 @@ Run the following command to add environemtns variable to your virtual env
 printf "\nexport \$(grep -v '^#' .env | xargs)" >> env/bin/activate
 ```
 
-Please use below given template to create a config file 
+Please use below given template to create a config file.
 
-config_dot_ini_template is dummy file, please you same configuration but remember to change username and password
+config_dot_ini_template is dummy file, please ensure you same configuration but remember to change username and password
 
 ```bash
     config_dot_ini_template -> config.ini
