@@ -47,7 +47,10 @@ async def home(
     Raises exception if bad parameters 
     """
     if n_smallest is not None and n_largest is not None:
-        raise  HTTPException(status_code=400, detail="Bad Parameter, n_largest and n_smallest can't be used at same time")
+        raise HTTPException(status_code=400, detail="Bad Parameter, n_largest and n_smallest can't be used at same time")
+    
+    if agg == "vwap" and col == "volume":
+        raise HTTPException(status_code=400, detail="Bad Parameter, Col should be price to calculate Volume weighted Average Price")
 
     query = await get_query(
         col=col,
