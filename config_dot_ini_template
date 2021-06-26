@@ -1,0 +1,8 @@
+[DATABASE]
+HOST=localhost
+USERNAME=yourusername
+PASSWORD=yourpassword
+PORT=5432
+
+[SYSTEM]
+USERNAME=yourSystemUserName

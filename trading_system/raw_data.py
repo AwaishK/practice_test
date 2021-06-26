@@ -1,10 +1,8 @@
+"""This file behavas as dummy trading system.
 """
-"""
-
-
-
 import pandas as pd
 import numpy as np
+
 
 def get_raw_data(dt_from: pd.Timestamp, dt_to: pd.Timestamp) -> pd.DataFrame:
     """
@@ -54,5 +52,3 @@ def get_raw_data(dt_from: pd.Timestamp, dt_to: pd.Timestamp) -> pd.DataFrame:
     df_raw["product_type"] = df_raw["product"].str.split("_").str[0]
 
     return df_raw
-
-    
