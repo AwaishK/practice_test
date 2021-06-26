@@ -156,7 +156,7 @@ async def get_query(
         query = f"""
             {view}
             select 
-                {groupby}, FLOOR(EXTRACT(EPOCH from execution_time::time)/{seconds}) as time, {column}
+                {groupby}, FLOOR(EXTRACT(EPOCH from execution_time)/{seconds}) as time, {column}
             from {table}
             where 1=1
             {sub_query}
