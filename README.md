@@ -52,6 +52,7 @@ printf "\nexport \$(grep -v '^#' .env | xargs)" >> env/bin/activate
 ```
 
 Please use below given template to create a config file 
+
 config_dot_ini_template is dummy file, please you same configuration but remember to change username and password
 
 ```bash
@@ -59,6 +60,7 @@ config_dot_ini_template is dummy file, please you same configuration but remembe
 ```
 
 Please use below given template to create a .env file
+
 dot_env is dummy file, please use same env variables but remember to update the values
 
 ```bash
