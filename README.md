@@ -70,7 +70,7 @@ dot_env is dummy file, please use same env variables but remember to update the 
 Please run below command to schedule the data pipeline
 
 ```bash
-    python data_pipeline/schedule
+    python data_pipeline/schedule.py
 ```
 
 Please run below command to run restful api
